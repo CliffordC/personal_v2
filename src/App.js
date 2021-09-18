@@ -13,32 +13,42 @@ import About from './components/About';
 import Photograph from './components/Photograph';
 import Contact from './components/Contact';
 
-import Image from './media/sunnykick.JPG';
+import Image from './media/orange.jpg';
+import './App.css'
 
 const AppBarStyles = {
   basics: {
    //backgroundColor: '#FAF9F6',
-    backgroundColor: 'white',
+    //backgroundImage : `url${Image}`,
+    opacity: '50',
+    backgroundColor: 'transparent',
     color: "black",
     borderRadius: 10,
-    dropshadow: 0,
+    //dropshadow: 0,
   },
   text : {
     color : "black",
   },
   toolbar : {
-    
+    display: 'flex',
+    flexDirection: 'row',
+    borderRadius: 10,
+    justifyContent: "center",
+    width: '100%',
+    marginLeft: '0',
   }
 }
 const generalStyles = {
-  text : {
+  basics: {
+    margin: '0',
     fontFamily: 'Anonymous Pro, monospace',
   },
+
 }
 
 const ScreenStyles = {
   background : {
-    backgroundImage : `url${Image}`,
+    margin : '0',
     position: "fixed",
     justifyContent: "center",
     alignItems: "center",
@@ -50,8 +60,9 @@ const ScreenStyles = {
 const App = () => {
 
   return (
-    <Container>
-      <div style={generalStyles.text}>
+    <div style={ScreenStyles.background}>
+    <Container maxWidth={false}>
+      <div style={generalStyles.basics}>
       <Router>
         {/* <div>
           <Link style={padding} to="/">Home</Link>
@@ -59,7 +70,7 @@ const App = () => {
           <Link style={padding} to="/photograph">Photographs</Link>
           <Link style={padding} to="/contact">Contact</Link>
         </div> */}
-        <AppBar position="relative" style={AppBarStyles.basics}>
+        <AppBar position="fixed" style={AppBarStyles.basics}>
         <Toolbar style={AppBarStyles.toolbar}>
           <Button color="inherit" component={Link} to="/">
             Home
@@ -94,12 +105,10 @@ const App = () => {
           </Route>
         </Switch>
 
-        <div>
-          <i>Clifford 2021</i>
-        </div>
       </Router>
       </div>
     </Container>
+    </div>
   )
 }
 

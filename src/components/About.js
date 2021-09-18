@@ -1,20 +1,28 @@
 import React from 'react';
-import Image from '../media/Cliff_07.png';
+import Footer from './Footer';
+import Image from '../media/Cliff_04.jpg';
 
 const containerStyle = {
     display: {
+        marginTop: '10em',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
         flexFlow: 'row nowrap',
     },
+    footer : {
+        //bottom: 0,
+        //height: "60ox",
+        paddingTop: '20em',
+        color: 'green'
+    }
 }
 const paragraphStyle = {
     display : {
         order: 0,
     },
     margins : {
-        margin: '10em',
+        margin: '5em',
         textAlign: 'center',
         fontSize: 18,
         fontFamily: 'Anonymous Pro, monospace',
@@ -23,12 +31,13 @@ const paragraphStyle = {
 
 const portraitStyles = {
     pic : {
-        order: 1,
-        height: '50',
-        width: '50',
+       
     },
     borders : {
+        order: 1,
         borderRadius: 15,
+        height: '30em',
+        width: '20em',
     }
 }
 
