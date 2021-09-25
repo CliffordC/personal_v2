@@ -1,6 +1,7 @@
 import React from 'react';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
+import { CardActionArea } from '@mui/material';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
@@ -27,6 +28,7 @@ const ProjectOne = () => {
     return (
         <div style={pageStyles.projectOne}>
             <Card sx={{ minWidth: 275 }}>
+                <CardActionArea>
             <CardContent>
             <Typography sx={{ fontSize: 14, textAlign:'center' }} color="text.secondary" gutterBottom>
             Events App
@@ -45,6 +47,7 @@ const ProjectOne = () => {
         <CardActions>
             <Button size="small">Learn More</Button>
         </CardActions>
+        </CardActionArea>
         </Card>
      </div>
     )
