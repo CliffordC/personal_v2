@@ -10,6 +10,7 @@ import {
 } from '@material-ui/core'//Page imports 
 import Home from './components/Home';
 import About from './components/About';
+import Work from './components/Work'
 import Photograph from './components/Photograph';
 import Contact from './components/Contact';
 
@@ -78,6 +79,9 @@ const App = () => {
           <Button color="inherit" component={Link} to="/about">
             About
           </Button>
+          <Button color="inherit" component={Link} to="/work">
+            Work
+          </Button> 
           <Button color="inherit" component={Link} to="/photograph">
             Photographs
           </Button>   
@@ -93,6 +97,9 @@ const App = () => {
           </Route>
           <Route path="/about">
             <About />
+          </Route>
+          <Route path="/work">
+            <Work />
           </Route>
           <Route path="/photograph">
             <Photograph />

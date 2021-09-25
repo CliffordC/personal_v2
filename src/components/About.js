@@ -1,5 +1,4 @@
 import React from 'react';
-import Footer from './Footer';
 import Image from '../media/Cliff_04.jpg';
 
 const containerStyle = {
@@ -54,7 +53,7 @@ const Paragraph = () => {
         <div style={paragraphStyle.margins}>
             <p>
                 Hey there! I'm Clifford. <br />I'm a novice computer scientist 
-                excited about learning new things and making helpful products. I wanted
+                excited about learning new things and hopefully making helpful products. I wanted
                 to practice using React so I made this site. 
             </p>
         </div>

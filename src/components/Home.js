@@ -13,7 +13,7 @@ const homeStyles = {
         display: 'flex',
         justifyContent: "center",
         textAlign: 'center',
-        fontSize: '1em',
+        fontSize: '2.5em',
         letterSpacing: '.55em'
     },
 }
@@ -21,7 +21,7 @@ const homeStyles = {
 const MainContent = () => {
     return (
         <div style={homeStyles.content}>
-            <h1>Howdy</h1>
+            <p>Howdy</p>
         </div>
     )
 }
