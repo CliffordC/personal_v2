@@ -1,24 +1,28 @@
 {
   "files": {
-    "main.js": "/personal_v2/static/js/main.9d6db143.chunk.js",
-    "main.js.map": "/personal_v2/static/js/main.9d6db143.chunk.js.map",
+    "main.css": "/personal_v2/static/css/main.178b2123.chunk.css",
+    "main.js": "/personal_v2/static/js/main.f7ecc353.chunk.js",
+    "main.js.map": "/personal_v2/static/js/main.f7ecc353.chunk.js.map",
     "runtime-main.js": "/personal_v2/static/js/runtime-main.719fb92a.js",
     "runtime-main.js.map": "/personal_v2/static/js/runtime-main.719fb92a.js.map",
-    "static/js/2.d23b6e0f.chunk.js": "/personal_v2/static/js/2.d23b6e0f.chunk.js",
-    "static/js/2.d23b6e0f.chunk.js.map": "/personal_v2/static/js/2.d23b6e0f.chunk.js.map",
+    "static/js/2.96d1f64b.chunk.js": "/personal_v2/static/js/2.96d1f64b.chunk.js",
+    "static/js/2.96d1f64b.chunk.js.map": "/personal_v2/static/js/2.96d1f64b.chunk.js.map",
     "index.html": "/personal_v2/index.html",
-    "static/js/2.d23b6e0f.chunk.js.LICENSE.txt": "/personal_v2/static/js/2.d23b6e0f.chunk.js.LICENSE.txt",
-    "static/media/Cliff_07.67aaa2d2.png": "/personal_v2/static/media/Cliff_07.67aaa2d2.png",
-    "static/media/IMG_1709.2afd0e4e.jpg": "/personal_v2/static/media/IMG_1709.2afd0e4e.jpg",
+    "static/css/main.178b2123.chunk.css.map": "/personal_v2/static/css/main.178b2123.chunk.css.map",
+    "static/js/2.96d1f64b.chunk.js.LICENSE.txt": "/personal_v2/static/js/2.96d1f64b.chunk.js.LICENSE.txt",
+    "static/media/Cliff_04.8e9584fb.jpg": "/personal_v2/static/media/Cliff_04.8e9584fb.jpg",
+    "static/media/Events.5a6d6ff0.png": "/personal_v2/static/media/Events.5a6d6ff0.png",
+    "static/media/IMG_1709.fb43292c.jpg": "/personal_v2/static/media/IMG_1709.fb43292c.jpg",
     "static/media/IMG_2014.36561b67.jpg": "/personal_v2/static/media/IMG_2014.36561b67.jpg",
     "static/media/IMG_2402.6693217e.JPG": "/personal_v2/static/media/IMG_2402.6693217e.JPG",
     "static/media/IMG_2446.b9cf0798.JPG": "/personal_v2/static/media/IMG_2446.b9cf0798.JPG",
     "static/media/orange.afa3cd72.jpg": "/personal_v2/static/media/orange.afa3cd72.jpg",
-    "static/media/sunnykick.57e2f3b9.JPG": "/personal_v2/static/media/sunnykick.57e2f3b9.JPG"
+    "static/media/App.css": "/personal_v2/static/media/sealine.8cf5f0e9.JPG"
   },
   "entrypoints": [
     "static/js/runtime-main.719fb92a.js",
-    "static/js/2.d23b6e0f.chunk.js",
-    "static/js/main.9d6db143.chunk.js"
+    "static/js/2.96d1f64b.chunk.js",
+    "static/css/main.178b2123.chunk.css",
+    "static/js/main.f7ecc353.chunk.js"
   ]
 }
