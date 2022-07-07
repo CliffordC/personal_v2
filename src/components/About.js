@@ -21,9 +21,9 @@ const paragraphStyle = {
         order: 0,
     },
     margins : {
-        margin: '5em',
         textAlign: 'center',
-        fontSize: 18,
+        display: 'inline-block',
+        fontSize: '18px',
         fontFamily: 'Anonymous Pro, monospace',
     }
 }

@@ -19,11 +19,19 @@ const pageStyles = {
     },
     projectOne : {
         cursor: 'pointer',
+        paddingRight: '15px',
+    },
+    projectTwo : {
+        cursor: 'pointer',
     },
 }
 
 
 const ProjectOne = () => {
+
+    const handleClick = () => {
+        window.open('https://github.com/afoyer/EventsApp')
+    }
 
     return (
         <div style={pageStyles.projectOne}>
@@ -45,7 +53,7 @@ const ProjectOne = () => {
             
         </CardContent>
         <CardActions>
-            <Button size="small">Learn More</Button>
+            <Button size="small" onClick={handleClick}>Git</Button>
         </CardActions>
         </CardActionArea>
         </Card>
@@ -54,11 +62,48 @@ const ProjectOne = () => {
     
 }
 
+const ProjectTwo = () => {
+
+    const handleClick = () => {
+        window.open('https://github.com/CliffordC/quakes')
+    }
+
+    return (
+        <div style={pageStyles.projectTwo}>
+            <Card sx={{ minWidth: 275 }}>
+                <CardActionArea>
+            <CardContent>
+            <Typography sx={{ fontSize: 14, textAlign:'center' }} color="text.secondary" gutterBottom>
+            Earthquake Locator
+            </Typography>
+            <CardMedia
+                component="img"
+                height="140"
+                image={EventsImage}
+                alt="Events App"
+            />
+            <Typography variant="body2">
+            A web app that helps users find <br/>earthquake locations near major cities.
+            </Typography>
+            
+        </CardContent>
+        <CardActions>
+            <Button size="small" onClick={handleClick}>Git</Button>
+        </CardActions>
+        </CardActionArea>
+        </Card>
+     </div>
+    )
+    
+}
+
+
 const Work = () => {
 
     return (
         <div style={pageStyles.base}>
             <ProjectOne />
+            <ProjectTwo />
         </div>
     )
 }

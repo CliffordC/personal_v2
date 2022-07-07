@@ -14,14 +14,14 @@ const homeStyles = {
         justifyContent: "center",
         textAlign: 'center',
         fontSize: '2.5em',
-        letterSpacing: '.55em'
+        letterSpacing: '.25em'
     },
 }
 
 const MainContent = () => {
     return (
         <div style={homeStyles.content}>
-            <p>Howdy</p>
+            <p>Hello</p>
         </div>
     )
 }
