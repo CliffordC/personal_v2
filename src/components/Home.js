@@ -4,7 +4,7 @@ import Footer from './Footer';
 const homeStyles = {
     background : {
         //backgroundImage: `url(${Image})`,
-        height: '50vh',
+        height: '75vh',
         width: '100vw',
         marginTop: '25%'
         
@@ -21,7 +21,7 @@ const homeStyles = {
 const MainContent = () => {
     return (
         <div style={homeStyles.content}>
-            <p>Hello</p>
+            <p>Hello.<br />Welcome to the site.</p>
         </div>
     )
 }

@@ -2,14 +2,17 @@ import React from 'react';
 
 const FootStyles = {
     footer : {
+      display: 'flex',
+      justifyContent: 'center',
       fontStyle: "italic",
-      position: 'absolute',
-      bottom: 0,
+      bottom: '0%',
       textAlign: 'center',
-      fontSize: '25',
-      color: 'white',
+      fontSize: '12px',
+      color: 'inherit',
       width: '100%',
-      height: '60px',   /* Height of the footer */
+      height: '50px', /* Height of the footer */
+      position:'fixed',
+      margin: '0',
     },
   
   }
@@ -17,7 +20,7 @@ const FootStyles = {
 const Footer = () =>{
     return (
         <div style={FootStyles.footer}>
-          <p>@Clifford 2021</p>
+          <p>@Clifford 2022</p>
         </div>
     )
 }

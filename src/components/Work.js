@@ -76,12 +76,6 @@ const ProjectTwo = () => {
             <Typography sx={{ fontSize: 14, textAlign:'center' }} color="text.secondary" gutterBottom>
             Earthquake Locator
             </Typography>
-            <CardMedia
-                component="img"
-                height="140"
-                image={EventsImage}
-                alt="Events App"
-            />
             <Typography variant="body2">
             A web app that helps users find <br/>earthquake locations near major cities.
             </Typography>

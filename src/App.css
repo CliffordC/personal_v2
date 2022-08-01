@@ -1,6 +1,6 @@
 html { 
   /*background: url('./media/sealine.JPG') no-repeat center center fixed; */
-  background-color: #013f28;
+  background-color: #00130c;
   background-blend-mode: saturation;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -9,5 +9,6 @@ html {
   max-width: 100%;
   overflow: hidden;
   margin: 0;
+  color: #4d675d;
   
 }

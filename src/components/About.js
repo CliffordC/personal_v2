@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from './Footer'
 import Image from '../media/Cliff_04.jpg';
 
 const containerStyle = {
@@ -8,13 +9,8 @@ const containerStyle = {
         alignItems: 'center',
         justifyContent: 'center',
         flexFlow: 'row nowrap',
+        gap: '10px',
     },
-    footer : {
-        //bottom: 0,
-        //height: "60ox",
-        paddingTop: '20em',
-        color: 'green'
-    }
 }
 const paragraphStyle = {
     display : {
@@ -35,8 +31,9 @@ const portraitStyles = {
     borders : {
         order: 1,
         borderRadius: 15,
-        height: '30em',
-        width: '20em',
+        margin:'10px',
+        height: '30vh',
+        width: '20vw',
     }
 }
 
@@ -67,6 +64,7 @@ const About = () => {
         <div style={containerStyle.display}>
             <Paragraph style={paragraphStyle.display} />
             <Portrait style={portraitStyles.pic}/>
+            <Footer />
         </div>
     )
 }

@@ -23,12 +23,12 @@ const AppBarStyles = {
     //backgroundImage : `url${Image}`,
     opacity: '50',
     backgroundColor: 'transparent',
-    color: "black",
+    color: "#4d675d",
     borderRadius: 10,
     //dropshadow: 0,
   },
   text : {
-    color : "black",
+    color : "#4d675d",
   },
   toolbar : {
     display: 'flex',
